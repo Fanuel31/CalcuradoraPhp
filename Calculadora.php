@@ -14,7 +14,7 @@
     $nr1 = 0;
     $nr2 = 0;
     $resultado = 0;
-    $calcular = 'somar';
+    $calcular = 0;
 
     function fatoracao($num) {
         $fatores = array();
