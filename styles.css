@@ -1,17 +1,37 @@
 body {
-    background-color: #000000; 
+    background-color: #000000;
     color: #ffffff;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
-        table {
+h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#5c0808;
+    font-size: 50px;
+    border-radius: 20px;
+     
+   
+}
+
+h1:hover{
+
+    color: #cc0000;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+table {
             border-collapse: collapse;
             width: 100%;
            
         }
 
-        th, td {
+th, td {
             border: 1px solid #04181f;
             text-align: left;
             padding: 8px;
@@ -19,11 +39,10 @@ body {
             transition: box-shadow 0.3s ease;
         }
 
-        th {
+th {
             background-color: #5c0808;
         }
-
-    .botao-calcular {
+.botao-calcular {
     background-color: #494545;
     color: #ffffff; 
     border: none;
@@ -33,10 +52,10 @@ body {
     transition: box-shadow 0.3s ease;
     }
 
-    .botao-calcular:hover {
+.botao-calcular:hover {
     background-color: #cc0000;
     }
-    .botao-calcular:active {
+.botao-calcular:active {
     box-shadow: 0 0 10px rgb(255, 0, 0); 
 }
 
